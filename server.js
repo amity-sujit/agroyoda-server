@@ -19,7 +19,7 @@ const corsOptions = {
     methods: ['GET', 'POST'], // Restrict to needed methods
     credentials: true, // Allow cookies/headers if needed (optional)
   };
-  app.use(cors(corsOptions));
+  app.use(cors());
   
 // Routes
 app.use('/api/auth', authRoutes);
