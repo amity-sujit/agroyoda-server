@@ -1,2 +1,2 @@
 # agroyoda-server
-Node.js backend to server Agroyoda features through API
+Node.js backend to serve Agroyoda features through API
